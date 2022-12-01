@@ -9,7 +9,7 @@ Brief Description:This projects demonstrates that we can make and API call with 
 
 import json
 import requests
-from FilePackage import EncryptedGroupHints
+from FunctionPackage import EncryptedGroupHints
 
 decode = open('EncryptedGroupHints.json')
 
