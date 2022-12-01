@@ -7,7 +7,7 @@ Semester/Year: Fall 2022
 Brief Description:This projects demonstrates that we can make and API call with a URL
 '''
 
-from FunctionPackage.function import loadImage
+from FunctionPackage.function import loadImage, save_image, crop_image, blur_image
 
 teamimage = loadImage('finalproject.jpeg')
 
