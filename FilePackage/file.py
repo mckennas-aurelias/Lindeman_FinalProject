@@ -4,7 +4,6 @@ Created on Nov 22, 2022
 @author: drewsexton
 '''
 import json
-  
  
 # Opening JSON file
 englishFile = open('english.txt','r').readlines()

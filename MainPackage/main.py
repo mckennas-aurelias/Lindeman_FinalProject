@@ -7,7 +7,6 @@ Semester/Year: Fall 2022
 Brief Description:This projects demonstrates that we can make and API call with a URL
 '''
 
-import json
-import requests
+import 
 
 
