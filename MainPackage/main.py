@@ -10,10 +10,10 @@ Brief Description:This projects demonstrates that we can make and API call with 
 from FunctionPackage.function import *
 from FunctionPackage.file import *
 
-result = decryption()
+result = FindTheLocation()
 print(result)
 
 teamimage = loadImage('finalproject.jpeg')
 
-teamimage.show()
+
 

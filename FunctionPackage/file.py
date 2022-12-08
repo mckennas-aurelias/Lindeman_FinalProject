@@ -5,7 +5,8 @@ Created on Nov 22, 2022
 '''
 import json
 
-def decryption():
+#function for opening the file
+def FindTheLocation():
     with open('EncryptedGroupHints.json') as json_file:
         parseKey = json.load(json_file)
         
