@@ -1,7 +1,11 @@
+#function.py
 '''
-Created on Dec 1, 2022
-
-@author: drewsexton
+Name: Drew Sexton, Kyle Lindeman, Madi Bratton, Ava Berling
+email: sextondw@mail.uc.edu, lindemkj@mail.uc.edu,  berlinag@mail.uc.edu, brattomn@mail.uc.edu
+Assignment: Final Assignment
+Course: IS 4010
+Semester/Year: Fall 2022
+Description: collaborate with your team to develop an Eclipse app and go on a scavenger hunt.
 '''
  
 from PIL import Image, ImageFilter
@@ -11,9 +15,3 @@ def loadImage ( filename ):
     myimage.load()
     return myimage.show()
 
-'''def blur_image(imageObject):    #requires the image already loaded
-    # Doesn't look too different but it does blur a little. Depends on the original image
-    #blurred = imageObject.filter(ImageFilter.BLUR)
-    blurred = imageObject.filter(ImageFilter.EMBOSS)    # This produces dramatic results. 
-    #blurred = imageObject.filter(ImageFilter.DETAIL)    # Doesn't look much different 
-    return blurred'''
